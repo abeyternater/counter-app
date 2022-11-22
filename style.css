@@ -1,0 +1,62 @@
+
+body{
+    background-image: url(images/IMG_0113.JPG);
+    background-position: center;
+    height: 50px;
+
+}
+h1{
+    text-align: center;
+}
+h2{
+    font-size: 50px;
+    text-align: center;
+}
+
+button{
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size: 20px;
+    color:white;
+    text-align: center;
+    display: block;
+    margin:auto;
+    height: 50px;
+    width: 250px;
+}
+
+#increment-btn{
+    background-color:darkred;
+    text-align: center;
+    margin: auto;
+    display: block;
+    height: 50px;
+    width: 250px;
+    transition-duration: .3s;
+}
+
+#increment-btn:hover{
+    background-color: red;
+}
+
+#save-btn{
+    background-color: green;
+    margin-top: 10px;
+}
+
+#save-btn:hover{
+    background-color: lightgreen;
+}
+
+p{
+    text-align: center;
+
+}
+
+.incrementstuff{
+    background-color: white;
+    max-width: 50%;
+    border:10px solid black;
+    margin: auto;
+    border-radius: 5px;    
+}
